@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript if</title>
+</head>
+<body>
+
+    <h1>Javascript if</h1>
+
+    <p> Display "Good Day" if the hour is less then 18:00:</p>
+
+    <p id="Demo">Good Evening!</p>
+
+    <script>
+        if (new Date().getHours() > 6) {
+            document.getElementById("Demo").innerHTML = "Good Morning!";
+        }
+    </script>
+    
+</body>
+</html>
