@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Else</title>
+</head>
+<body>
+    <h1>JavaScript Math.random()</h1>
+
+    <p id="Demo"></p>
+
+    <script>
+        let text;
+
+        if (Math.random() < 0.5)
+    { 
+        text = "<a href='https://w3schools.com'>Visit W3Schools</a>";
+
+    }
+
+    else
+    {
+       text = "<a href='https://wwf.org'>Visit WWF</a>";
+    }
+        document.getElementById("Demo").innerHTML = text;
+    </script>
+</body>
+</html>
