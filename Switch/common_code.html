@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Switch operator</title>
+</head>
+<body>
+    
+    <h1> The Javascript switch control </h1>
+    <h2>Common Code Blocks</h2>
+    <p> In this example, case 4 and case 5 share the same code block, and 0 to 6 shre another code block </p>
+    <p id="Demo"></p>
+
+    <script>
+        let text;
+        switch (new Date().getDay()) {
+            case 4:
+                case 5:
+                    text = " Soon  it is weekend ";
+                    break;
+                    case 0:
+                        case 6:
+                            text = " It is weekend ";
+                            break;
+                            default:
+                                text = " Looking  forward to the weekend ";
+        }
+        document.getElementById("Demo").innerHTML = text;
+    </script>
+</body>
+</html>
